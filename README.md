@@ -1,8 +1,8 @@
-Job Portal Backend
+1. Job Portal Backend
 
 This is the backend of the Job Portal project built using **Node.js**, **Express**, and **MySQL**.
 
-📁 Folder Structure
+2. 📁 Folder Structure
 jobportal-backend/
 ├── controllers/
 ├── middleware/
@@ -18,7 +18,7 @@ jobportal-backend/
 - Role-based Access (Admin/User)
 - MySQL Database Integration
 
- 🛠️ Technologies Used
+ 3.🛠️ Technologies Used
 
 - Node.js
 - Express.js
@@ -28,15 +28,15 @@ jobportal-backend/
 
  🔧 Setup Instructions
 
-1. Clone the repository  
+4. Clone the repository  
 ```bash
 git clone https://github.com/ANJUWATHLEY/jobportal-backend.git
 cd jobportal-backend
 
--Install dependencies
+5.Install dependencies
 npm install
 
-- Create a .env file in the root directory and add your credentials
+6. Create a .env file in the root directory and add your credentials
 
 DB_HOST=your_mysql_host
 DB_USER=your_mysql_user
@@ -44,11 +44,11 @@ DB_PASSWORD=your_mysql_password
 DB_NAME=your_db_name
 JWT_SECRET=your_jwt_secret
 
-Start the server choose one
-npm start
-node server.js
+7. Start the server choose one
+  npm start
+  node server.js
 
-API Testing via Postman
+8 . API Testing via Postman
 📸 API Test via Postman: Below are screenshots of Register, Login, Post Job, Apply Job APIs tested in Postman.
 
 ![Screenshot 2025-06-17 122059](https://github.com/user-attachments/assets/0bb5236d-5f28-4241-8c61-9dfc7c71a21e)
