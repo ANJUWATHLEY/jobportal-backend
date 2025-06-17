@@ -24,10 +24,6 @@ app.get('/', (req, res) => {
   res.json({ message: 'Job Portal API is running!' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
-
 // Role validation middleware
 app.use((req, res, next) => {
   const { role } = req.body;
@@ -37,3 +33,7 @@ app.use((req, res, next) => {
   next();
 });
 
+// Start server
+app.listen(PORT, () => {
+  console.log(`🚀 Server running on port ${PORT}`);
+});
